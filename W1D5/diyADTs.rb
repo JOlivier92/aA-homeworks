@@ -25,6 +25,7 @@ class Queue
   attr_accessor :queue
   def initialize
     @queue = []
+  end
   def enqueue(el)
     queue.push(el)
   end
